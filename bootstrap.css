@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Montserrat:wght@400;600&family=Poppins:wght@200&family=Ysabeau+Infant:wght@100&display=swap');
+
+
+h5 {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+
+nav {
+
+    background-color: rgb(151, 213, 182);
+}
+
+
+.section{
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+/* ________________________________________________________ */
+
+
+.container-fluid {
+    max-width: 80%;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.header-img {
+    width: 100%;
+    height: 100vh;
+
+    background: url(css/headder-bg.jpg) center no-repeat;
+    background-size: cover;
+
+}
+
+.header-content {
+    margin-top: 18%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.input-form {
+    margin-top: 20px;
+    border: 5px solid white;
+    padding: 30px;
+    width: 70%;
+
+}
+
+.input-fields {
+    margin-top: 15px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+
+    align-items: baseline;
+
+}
+
+button{
+    border: none;
+    background-color: rgb(67, 157, 106);
+
+    padding: 15px;
+
+    color: white;
+
+    transition: 0.2s ease;
+}
+
+button:hover{
+    background-color: rgb(54, 122, 84);
+}
+
+
+@media (max-width:1000px) {
+
+    .input-fields {
+        margin-top: 15px;
+    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    
+        align-items: baseline;
+    
+    }
+    
+}
+
+@media (max-width:400px) {
+
+    .input-fields {
+        margin-top: 15px;
+    
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    
+        align-items: baseline;
+    
+    }
+    
+}
+
+
+@media (max-width:376px) {
+
+    
+    .input-fields {
+        margin-top: 15px;
+    
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    
+        align-items: baseline;
+    
+    }
+    
+
+    button{
+        border: none;
+        background-color: rgb(67, 157, 106);
+    
+        padding: 9px;
+    
+        color: white;
+    
+        transition: 0.2s ease;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+    
+    h1 {
+        font-size: 48px;
+    }
+}
+
+
+
+/* _______________________________________________ */
+
+.examples{
+    text-align: center;
+}
+
+.exapmles-title{
+    margin-bottom: 50px;
+    
+    text-transform: uppercase;
+}
+
+.carousel img{
+    width: auto;
+    height: 500px;
+}
+
+
+@media (max-width:850px) {
+
+    .carousel img{
+        width: auto;
+        height: 400px;
+    }
+    
+}
+
+
+@media (max-width:600px) {
+
+    .carousel img{
+        width: auto;
+        height: 350px;
+    }
+    
+}
+
+
+@media (max-width:400px) {
+
+    .carousel img{
+        width: auto;
+        height: 280px;
+    }
+    
+}
+
+/* __________________________________________ */
+
+.offers{
+    padding: 50px 0;
+    background-color: rgb(151, 213, 182);
+    
+    text-align: center;
+}
+
+.offer-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    gap: 10px;
+}
+
+
+.btn-primary{
+    width: 100%;
+
+    background-color: rgb(67, 157, 106);
+    border: none;
+
+    text-transform: uppercase;
+}
+
+.btn-primary:hover{
+    background-color: rgb(54, 122, 84);
+}
+
+
+
+
+
+/* ___________________________________________ */
+
+.sale{
+    width: 100%;
+    height: 80vh;
+    background: url(css/sale-bg.jpg) center no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.sale-content{
+    text-transform: uppercase;
+
+    padding: 200px 0;
+
+}
+
+.sale-content button{
+
+    margin-top: 15px;
+    text-transform: uppercase;
+    padding: 10px 50px;
+
+}
+
+
+.sale-content p{
+    margin-top: 10px;
+    font-size: 10px;
+    text-transform: none;
+}
+
+@media (max-width:400px) {
+
+    .sale-content{
+        
+        padding: 100px 0;
+    
+    }
+}
